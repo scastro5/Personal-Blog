@@ -227,3 +227,34 @@ footer p {
 	font-weight: 700;
 	cursor: pointer;
 }
+.profile-main-container {
+	width: 100%;
+	background-color: #e6e9ed;
+	text-align: center;
+	padding: 50px 0;
+}
+.profile-main-container div {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 25px;
+}
+.profile-main-container img {
+	width: 350px;
+	
+}
+.profile-main-container article {
+	text-align: initial;
+}
+.projects-main-container h2 {
+	max-width: 980px;
+	text-align: center;
+	border-bottom: 1px solid #cdd2da;
+	padding-bottom: 20px;
+	margin: 40px auto 0;
+}
+.projects-posts-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 50px auto 80px;
+	gap: 15px;
+}
